@@ -1,8 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 @font-face {
     font-family: Roboto;
     src: url(./fonts/Roboto.ttf);
@@ -30,6 +25,7 @@
     width: 1440px;
     height: 900px;
     background: url(./image/pizza.png) right no-repeat;
+    background-color: #E5E5E5;
 }
 
 .main {
@@ -44,9 +40,10 @@
     line-height: 80,5%;
     color: #030305;
     margin-bottom: 50px;
+    margin-top: 283px;
     /* width: 562px; */
-    padding: 0;
-    margin: 0;
+    padding: -5px;
+    margin: -20px;
     border:1px solid black;
     /* height: 130px; */
 }
@@ -68,6 +65,32 @@
     border-radius: 20px;
     border: 0;
     color: #ffffff;
+    border:1px solid black;
+    
+}
+
+.button div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    /* border:1px solid black; */
+}
+.main_action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1 {
+    padding-bottom: 10px;
+}
+
+.item2 {
+    border:1px solid black;
+    margin: 50px;
+    padding: 0;
 }
 
 
@@ -91,3 +114,45 @@
     flex-direction: row;
 }
 
+.menu_item {
+    height: 282px;
+    width: 282px;
+    background-color: white;
+    border-radius: 50px;
+    margin:50px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.menu_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border:1px solid black;
+}
+
+.menu {
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E5E5;
+    padding-top: 100px;
+
+}
+
+.menu_title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    border:1px solid black;
+}
+
+span {
+    color: red;
+}
